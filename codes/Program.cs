@@ -10,9 +10,9 @@ namespace PatternCodes
         {
             Console.WriteLine("Hello World!");
             // SingletonTest();
-            SingletonMuliThreadTest();
+            // SingletonMuliThreadTest();
         }
-
+#region 单例测试
         private static void SingletonTest()
         {   
             HashSet<int> emperorSet = new HashSet<int>();
@@ -52,5 +52,7 @@ namespace PatternCodes
 
             Console.WriteLine("Emperor Count: "+ emperorSet.Count);
         }
+#endregion
+
     }
 }
