@@ -1,0 +1,13 @@
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.csprojAssemblyReference.cache
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.csproj.CoreCompileInputs.cache
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.AssemblyInfoInputs.cache
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.AssemblyInfo.cs
+E:\PatternCodes\bin\Debug\netcoreapp3.1\PatternCodes.exe
+E:\PatternCodes\bin\Debug\netcoreapp3.1\PatternCodes.deps.json
+E:\PatternCodes\bin\Debug\netcoreapp3.1\PatternCodes.runtimeconfig.json
+E:\PatternCodes\bin\Debug\netcoreapp3.1\PatternCodes.runtimeconfig.dev.json
+E:\PatternCodes\bin\Debug\netcoreapp3.1\PatternCodes.dll
+E:\PatternCodes\bin\Debug\netcoreapp3.1\PatternCodes.pdb
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.dll
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.pdb
+E:\PatternCodes\obj\Debug\netcoreapp3.1\PatternCodes.genruntimeconfig.cache
