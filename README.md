@@ -1,105 +1,30 @@
-# Game-Design-Patterns
+﻿## <center>设计模式学习</center>
 
-设计模式学习记录
+----------
+> 孤立的类没有意义， 
+> 面向对象思想决定了类与类是交互的
+> 类与类之间的关系分为 纵向和横向
+> 
+> 纵向： 层级关系， 继承与实现
+> 横向： 平级关系， 组合-聚合-关联-依赖
 
----
-
-## 《headfirst设计模式》
-
-### 1. 策略模式
-
-* 鸭子游戏引申的问题
-  1. 基类实现——---》 导致所有集成类同接口的实现一致
-  2. 基类实现 virtual（实现默认的），子类实现具体特殊的功能-----》 改一处可能需要修改的地方很多
-  3. 都是用接口组合 --> 很多代码重复
-
-> 把会变化的部分取出来并封装起来，以便于以后轻易地改动或者扩充此部分而不影响不需要变化的部分
-
-``` c# 
-    public class Duck{
-        // ...
-        QuackBehaviour quackBehaviour;
-        FlyBehaviour flyBehaviour;
-
-        public void SetQuackBehaviour(QuackBehaviour quackBehaviour)
-        {
-            this.quackBehaviour = quackBehaviour;
-        }
-
-        public void SetFlyBehaviour(FlyBehaviour flyBehaviour)
-        {
-            this.flyBehaviour = flyBehaviour;
-        }
-
-        public void Quack()
-        {
-            quackBehaviour.Quack();
-        }
-
-        public void Fly()
-        {
-            quackBehaviour.Fly();
-        }
-    }
-
-    //变化部分
-    public interface QuackBehaviour{
-        void Quack();
-    }
-
-    public interface FlyBehaviour{
-        void Fly();
-    }
-```
-
-```c#
-    //实现需要改动地方
-    public class FlyWithWing
-    {
-        public void Fly()
-        {
-            // fly
-        }
-    }
-
-    public class FlyNoWing
-    {
-        public void Fly()
-        {
-            // Empty
-        }
-    }
-
-    //实现需要改动地方
-    public class DuckQuack
-    {
-        public void Quack()
-        {
-            // 呱呱叫
-        }
-    }
-
-    public class Squeak
-    {
-        public void Quack()
-        {
-            // 吱吱叫
-        }
-    }
-
-    public class MuteQuack
-    {
-        public void Quack()
-        {
-            // 不会叫
-        }
-    }
-```
-
-> 设计原则： 有一个比是一个更好，多用组合少用继承。针对接口编程不针对实现编程。
-
-* 以上使用的是**策略模式: 定义了算法族，分别封装起来，让他们之间相互替换，此模式让算法的变化独立于使用算法的客户**
+----------
+## 一、 横向关系 ##
+1. 依赖关系： 假设A类的变化引起B类的变化，则说明B依赖A。
+2. 关联关系： 两个类之间的语义级别强依赖关系。
+3. 聚合关系： 表示的是正义和部分的关系。
+4. 组合关系： 组合也是关联关系的一种特例，强聚合。
 
 
-### 2. 观察者模式(Observer)
+## 三、适配器模式
+> 适配器模式（Adapter）：将一个接口转换成客户希望的另一个接口，使接口不兼容的那些类一起工作，别名包装器（Wrapper）
+> 分为两种： 类适配器（继承）、 对象适配器(属性字段，方法，构造函数)
 
+适配器核心：包一层，没有什么是包一层解决不了的，如果有就再包一层。
+
+注意： 不能在项目开始就设计适配器（包一层），徒增难度。属于**补救模式**
+
+## 四、代理模式
+> 代理模式是给某一对象提供一个代理对象，并由代理对象控制对原对象的引用。 “中介”
+> 只要不影响原对象，可以随意处理，log，扩展等。
+> 适配器是新增业务，不去扩展公共逻辑。代理模式是解决对象调用问题，可以扩展公共逻辑，坚决不增业务
