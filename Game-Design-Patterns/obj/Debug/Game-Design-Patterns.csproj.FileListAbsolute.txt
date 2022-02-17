@@ -1,0 +1,10 @@
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\bin\Debug\Game-Design-Patterns.exe.config
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\bin\Debug\Game-Design-Patterns.exe
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\bin\Debug\Game-Design-Patterns.pdb
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\bin\Debug\nunit.framework.dll
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\bin\Debug\nunit.framework.xml
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\obj\Debug\Game-Design-Patterns.csproj.CoreCompileInputs.cache
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\obj\Debug\Game-Design-Patterns.csproj.CopyComplete
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\obj\Debug\Game-Design-Patterns.exe
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\obj\Debug\Game-Design-Patterns.pdb
+C:\Users\longyg\Documents\GitHub\Game-Design-Patterns\Game-Design-Patterns\obj\Debug\Game-Design-Patterns.csprojAssemblyReference.cache
